@@ -1,0 +1,12 @@
+Week1- Data structures and Algorithms
+
+Exercise 2: E-commerce Platform Search Function
+
+This exercise describes a search feature in an e-commerce platform that matches product names against a keyword.
+A fixed list of product names is scanned for any partial match of the keyword.
+If matches exist, they are displayed one per line; otherwise, a message indicates that nothing matches.
+
+Expected input: A keyword like "phone"
+
+Expected output:
+All matching product names containing that keyword printed one per line, or a message if nothing matches.
