@@ -1,0 +1,10 @@
+Week 1: Data structures and Algorithms
+
+Exercise 7: Financial Forecasting
+
+This exercise deals with predicting future financial trends based on past revenue data.
+Given past monthly revenue as an array, the program estimates future revenue by applying a simple average growth rate.
+
+Expected input: No direct input is required; the revenue data is predefined in the main method.
+
+Expected output: A projected revenue value displayed on the console representing the estimated next period's revenue.
