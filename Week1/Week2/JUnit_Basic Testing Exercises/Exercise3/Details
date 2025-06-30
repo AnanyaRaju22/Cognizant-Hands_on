@@ -1,0 +1,16 @@
+Description:
+This test suite uses the AAA pattern:
+Arrange – in @BeforeEach (setUp())
+Act – perform the action in each test
+Assert – validate outcomes using assertions
+
+It also uses:
+@BeforeEach – for test fixture setup
+@AfterEach – for cleanup (teardown)
+
+Expected Input & Output:
+
+Action	Initial	Operation	Final Balance
+Deposit ₹500	₹1000	deposit(500)	₹1500
+Withdraw ₹300	₹1000	withdraw(300)	₹700
+Over-withdraw ₹1500	₹1000	withdraw(1500)	₹1000 (no change)
