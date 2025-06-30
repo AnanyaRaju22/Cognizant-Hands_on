@@ -1,0 +1,20 @@
+Mockito Exercise 2: Verifying Interactions
+
+Scenario:
+You have a NotificationService that sends messages using a MessageSender.
+You’ll use Mockito to:
+Mock the dependency (MessageSender)
+Call methods on the real class
+Verify that the expected interactions happened.
+
+Description:
+This example demonstrates how to:
+Mock a dependency
+Call the real method
+Verify that methods were called with expected arguments
+Use verify(), times(), never(), and anyString() for interaction verification
+
+Expected Interactions:
+Method             	Called With
+sendEmail(...)   	"user123", "Welcome..."
+sendSMS(...)     	"user123", "Welcome..."
