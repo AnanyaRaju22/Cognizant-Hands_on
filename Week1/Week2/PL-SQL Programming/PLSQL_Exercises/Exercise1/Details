@@ -1,0 +1,8 @@
+Description:
+This program demonstrates the use of if-else control structures in Java. It reads a student's marks and prints the corresponding grade based on standard grading logic.
+
+Expected Input:
+Enter marks: 85
+
+Expected Output:
+Grade: A
