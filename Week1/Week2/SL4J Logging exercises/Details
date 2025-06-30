@@ -1,0 +1,11 @@
+Description:
+Uses SLF4J (Simple Logging Facade for Java) to log:
+warn() when username is empty
+error() when login fails
+info() when login is successful
+
+Expected Console Output:
+(If SLF4J is set up with slf4j-simple JAR):
+WARN  LoginService - Username is empty or null
+ERROR LoginService - Login failed for user: admin
+INFO  LoginService - User 'admin' logged in successfully
