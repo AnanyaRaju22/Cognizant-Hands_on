@@ -11,5 +11,5 @@ Expected Input & Output:
 Method	           Input	       Expected Output
 
 multiply          (4, 5)	          	20
-isEven(10)	        10             	true
+isEven(10)	        10              	true
 reverse("Java")	  "Java"	          "avaJ"
