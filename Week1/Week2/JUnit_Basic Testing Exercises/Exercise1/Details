@@ -1,0 +1,10 @@
+Exercise 1: Setting Up JUnit (Basic Testing)
+
+Description:
+This exercise demonstrates how to set up and run a basic unit test using JUnit 5. It involves creating a simple Java method (e.g., add two numbers) and writing a test case to validate its output.
+
+Expected Input (in test method):
+add(3, 7)
+
+Expected Output (from test result):
+Test passed: 3 + 7 = 10
