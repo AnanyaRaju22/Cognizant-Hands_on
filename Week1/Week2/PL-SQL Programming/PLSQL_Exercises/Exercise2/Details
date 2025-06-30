@@ -1,0 +1,11 @@
+Problem: Simulate Stored Procedure – Employee Bonus Calculator
+
+Description:
+This program simulates a stored procedure using a Java method. Given an employee's salary, it calculates a bonus based on predefined conditions and prints both salary and bonus.
+
+Expected Input:
+Enter employee salary: 25000
+
+Expected Output:
+Salary: 25000.0
+Bonus: 2500.0
