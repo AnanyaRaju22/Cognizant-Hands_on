@@ -1,0 +1,15 @@
+Description:
+This test class demonstrates basic and advanced assertions in JUnit 5, such as:
+assertEquals()
+assertNotEquals()
+assertTrue()
+assertFalse()
+assertNotNull()
+
+Expected Input & Output:
+
+Method	           Input	       Expected Output
+
+multiply          (4, 5)	          	20
+isEven(10)	        10             	true
+reverse("Java")	  "Java"	          "avaJ"
