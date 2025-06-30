@@ -1,0 +1,14 @@
+Exercise 1: Mocking and Stubbing – Mockito with JUnit 5
+
+Scenario:
+We’re testing a ShoppingCart class that depends on a ProductService to get product prices.
+Using Mockito, we’ll mock the ProductService so we can test ShoppingCart in isolation.
+
+Description:
+We mocked ProductService using mock()
+We stubbed getPrice("P123") to return 100.0
+We tested ShoppingCart.calculateTotal() without needing real product data
+
+Expected Input & Output:
+Product ID  	Stubbed Price	    Quantity	  Expected Total
+P123          	100.0	             3	         300.0
