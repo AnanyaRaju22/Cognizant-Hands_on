@@ -1,0 +1,40 @@
+# Spring Boot REST API - Country Details by Code
+
+## 🧾 Project Description
+This Spring Boot project is a RESTful API that returns country details based on a country code (e.g., "IN" for India). It demonstrates the use of Spring Boot 3, REST controllers, and handling of URL path variables with JSON responses.
+
+## 🔧 Features
+- REST API: `GET /country/{code}`
+- Returns `Country` model as JSON
+- Handles dynamic `@PathVariable` input
+- Follows standard MVC structure
+
+## 📦 Packages Used
+- `com.example.demo.model` – Contains `Country.java`
+- `com.example.demo.controller` – Contains `CountryController.java`
+- `com.example.demo` – Contains `SpringRestHandsonApplication.java` (main class)
+
+## 📌 Sample Endpoint
+GET /country/{code}
+**Example:**
+```http
+GET http://localhost:8080/country/US
+Response:
+{
+  "code": "US",
+  "name": "United States"
+}
+▶️ How to Run
+Import the project into Eclipse/IntelliJ.
+
+Make sure all packages are correct and there are no conflicting classes.
+
+Run the SpringRestHandsonApplication class.
+
+Access the API at: http://localhost:8080/country/IN using a browser or Postman.
+
+✅ Output
+{
+  "code": "IN",
+  "name": "India"
+}
