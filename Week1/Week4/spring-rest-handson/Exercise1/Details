@@ -1,0 +1,19 @@
+Exercise 1 : Spring Web Project
+📄 Description:
+Spring Boot web application that exposes a /greet REST endpoint using Spring Web.
+
+📥 Sample Input (URL):
+http://localhost:8080/greet
+
+📤 Sample Output (Response):
+Hello from Spring Boot!
+
+🛠️ What is Used to Bring this Output:
+
+Spring Boot Starter Web
+
+SpringWebDemoApplication.java as the entry point
+
+GreetingController.java to define /greet
+
+Embedded Tomcat on port 8080
