@@ -1,0 +1,16 @@
+Exercise 3 - Greet Endpoint using Spring Boot
+
+📄 Description:
+A modified version of the REST controller to greet users using a custom endpoint.
+
+🧪 Sample Input:
+GET request to:
+http://localhost:8080/greet
+
+✅ Output:
+Hello from Spring Boot!
+
+⚙️ What’s Used:
+- @RestController & @GetMapping
+- Spring Boot Web Starter
+- Embedded Tomcat on port 8080
