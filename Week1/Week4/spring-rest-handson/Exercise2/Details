@@ -1,0 +1,22 @@
+Exercise 2: Load City from Spring XML
+Description:
+This program demonstrates loading a City object from an XML configuration using Spring's ClassPathXmlApplicationContext.
+
+Sample Input (in beans.xml):
+
+<bean id="city" class="com.example.demo.City">
+    <property name="name" value="Bengaluru"/>
+    <property name="state" value="Karnataka"/>
+</bean>
+
+Output:
+
+City Name: Bengaluru  
+State: Karnataka
+
+Tech Used:
+Spring Core (ApplicationContext)
+
+XML Bean Configuration
+
+Java POJO (City.java)
